@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F25B28C2A1FE9A700F41640 /* FlyHunterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B28B2A1FE9A700F41640 /* FlyHunterApp.swift */; };
+		6F25B28E2A1FE9A700F41640 /* FlyHunter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B28D2A1FE9A700F41640 /* FlyHunter.swift */; };
+		6F25B2902A1FE9A900F41640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F25B28F2A1FE9A900F41640 /* Assets.xcassets */; };
+		6F25B2932A1FE9A900F41640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F25B2922A1FE9A900F41640 /* Preview Assets.xcassets */; };
+		6F25B29A2A1FECF900F41640 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2992A1FECF900F41640 /* Constants.swift */; };
+		6F25B29C2A1FF11100F41640 /* FlyHunterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B29B2A1FF11100F41640 /* FlyHunterViewModel.swift */; };
+		6F25B2A12A1FF36400F41640 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2A02A1FF36400F41640 /* StartButtonView.swift */; };
+		6F25B2A32A1FF9D900F41640 /* AimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2A22A1FF9D900F41640 /* AimView.swift */; };
+		6F25B2A52A1FFA1E00F41640 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2A42A1FFA1E00F41640 /* TimerView.swift */; };
+		6F25B2A72A201D3500F41640 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2A62A201D3500F41640 /* WebView.swift */; };
+		6F25B2AB2A2076B800F41640 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2AA2A2076B800F41640 /* UserDefaultsManager.swift */; };
+		6F25B2AD2A2077E000F41640 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2AC2A2077E000F41640 /* UserDefaults.swift */; };
+		6F25B2B12A207A2900F41640 /* FirstOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2B02A207A2900F41640 /* FirstOpenView.swift */; };
+		6F25B2B32A207C0700F41640 /* FirstOpenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25B2B22A207C0700F41640 /* FirstOpenViewModel.swift */; };
+		6F9CB01A2A23A7EA00BF8974 /* WebMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9CB0192A23A7EA00BF8974 /* WebMenager.swift */; };
+		6F9CB01D2A23A84900BF8974 /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9CB01C2A23A84900BF8974 /* WebModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F25B2882A1FE9A700F41640 /* TapGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F25B28B2A1FE9A700F41640 /* FlyHunterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyHunterApp.swift; sourceTree = "<group>"; };
+		6F25B28D2A1FE9A700F41640 /* FlyHunter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyHunter.swift; sourceTree = "<group>"; };
+		6F25B28F2A1FE9A900F41640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F25B2922A1FE9A900F41640 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F25B2992A1FECF900F41640 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F25B29B2A1FF11100F41640 /* FlyHunterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyHunterViewModel.swift; sourceTree = "<group>"; };
+		6F25B2A02A1FF36400F41640 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		6F25B2A22A1FF9D900F41640 /* AimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimView.swift; sourceTree = "<group>"; };
+		6F25B2A42A1FFA1E00F41640 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		6F25B2A62A201D3500F41640 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6F25B2AA2A2076B800F41640 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		6F25B2AC2A2077E000F41640 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		6F25B2B02A207A2900F41640 /* FirstOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOpenView.swift; sourceTree = "<group>"; };
+		6F25B2B22A207C0700F41640 /* FirstOpenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOpenViewModel.swift; sourceTree = "<group>"; };
+		6F9CB0192A23A7EA00BF8974 /* WebMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMenager.swift; sourceTree = "<group>"; };
+		6F9CB01C2A23A84900BF8974 /* WebModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F25B2852A1FE9A700F41640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F25B27F2A1FE9A700F41640 = {
+			isa = PBXGroup;
+			children = (
+				6F25B28A2A1FE9A700F41640 /* FlyHunter */,
+				6F25B2892A1FE9A700F41640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F25B2892A1FE9A700F41640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2882A1FE9A700F41640 /* TapGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F25B28A2A1FE9A700F41640 /* FlyHunter */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B28B2A1FE9A700F41640 /* FlyHunterApp.swift */,
+				6F25B28D2A1FE9A700F41640 /* FlyHunter.swift */,
+				6F25B2B22A207C0700F41640 /* FirstOpenViewModel.swift */,
+				6F25B29B2A1FF11100F41640 /* FlyHunterViewModel.swift */,
+				6F25B29D2A1FF30C00F41640 /* TapGameViewComponets */,
+				6F25B2AF2A2079D400F41640 /* FirstOpen */,
+				6F25B2A82A2075DE00F41640 /* Services */,
+				6F25B2AE2A20798700F41640 /* Helper */,
+				6F9CB01B2A23A83400BF8974 /* Models */,
+				6F25B28F2A1FE9A900F41640 /* Assets.xcassets */,
+				6F25B2912A1FE9A900F41640 /* Preview Content */,
+			);
+			path = FlyHunter;
+			sourceTree = "<group>";
+		};
+		6F25B2912A1FE9A900F41640 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2922A1FE9A900F41640 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F25B29D2A1FF30C00F41640 /* TapGameViewComponets */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2A02A1FF36400F41640 /* StartButtonView.swift */,
+				6F25B2A22A1FF9D900F41640 /* AimView.swift */,
+				6F25B2A42A1FFA1E00F41640 /* TimerView.swift */,
+				6F25B2A62A201D3500F41640 /* WebView.swift */,
+			);
+			path = TapGameViewComponets;
+			sourceTree = "<group>";
+		};
+		6F25B2A82A2075DE00F41640 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2A92A20768D00F41640 /* UserDefaults */,
+				6F9CB0192A23A7EA00BF8974 /* WebMenager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6F25B2A92A20768D00F41640 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2AA2A2076B800F41640 /* UserDefaultsManager.swift */,
+				6F25B2AC2A2077E000F41640 /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		6F25B2AE2A20798700F41640 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2992A1FECF900F41640 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6F25B2AF2A2079D400F41640 /* FirstOpen */ = {
+			isa = PBXGroup;
+			children = (
+				6F25B2B02A207A2900F41640 /* FirstOpenView.swift */,
+			);
+			path = FirstOpen;
+			sourceTree = "<group>";
+		};
+		6F9CB01B2A23A83400BF8974 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F9CB01C2A23A84900BF8974 /* WebModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F25B2872A1FE9A700F41640 /* TapGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F25B2962A1FE9A900F41640 /* Build configuration list for PBXNativeTarget "TapGame" */;
+			buildPhases = (
+				6F25B2842A1FE9A700F41640 /* Sources */,
+				6F25B2852A1FE9A700F41640 /* Frameworks */,
+				6F25B2862A1FE9A700F41640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGame;
+			productName = TapGame;
+			productReference = 6F25B2882A1FE9A700F41640 /* TapGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F25B2802A1FE9A700F41640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6F25B2872A1FE9A700F41640 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6F25B2832A1FE9A700F41640 /* Build configuration list for PBXProject "TapGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F25B27F2A1FE9A700F41640;
+			productRefGroup = 6F25B2892A1FE9A700F41640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F25B2872A1FE9A700F41640 /* TapGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F25B2862A1FE9A700F41640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F25B2932A1FE9A900F41640 /* Preview Assets.xcassets in Resources */,
+				6F25B2902A1FE9A900F41640 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F25B2842A1FE9A700F41640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F25B2A52A1FFA1E00F41640 /* TimerView.swift in Sources */,
+				6F25B29C2A1FF11100F41640 /* FlyHunterViewModel.swift in Sources */,
+				6F9CB01D2A23A84900BF8974 /* WebModel.swift in Sources */,
+				6F25B2A72A201D3500F41640 /* WebView.swift in Sources */,
+				6F25B2B12A207A2900F41640 /* FirstOpenView.swift in Sources */,
+				6F25B28E2A1FE9A700F41640 /* FlyHunter.swift in Sources */,
+				6F9CB01A2A23A7EA00BF8974 /* WebMenager.swift in Sources */,
+				6F25B28C2A1FE9A700F41640 /* FlyHunterApp.swift in Sources */,
+				6F25B2AB2A2076B800F41640 /* UserDefaultsManager.swift in Sources */,
+				6F25B2AD2A2077E000F41640 /* UserDefaults.swift in Sources */,
+				6F25B2A12A1FF36400F41640 /* StartButtonView.swift in Sources */,
+				6F25B2B32A207C0700F41640 /* FirstOpenViewModel.swift in Sources */,
+				6F25B2A32A1FF9D900F41640 /* AimView.swift in Sources */,
+				6F25B29A2A1FECF900F41640 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F25B2942A1FE9A900F41640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F25B2952A1FE9A900F41640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F25B2972A1FE9A900F41640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyHunter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.TapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F25B2982A1FE9A900F41640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyHunter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.TapGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F25B2832A1FE9A700F41640 /* Build configuration list for PBXProject "TapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F25B2942A1FE9A900F41640 /* Debug */,
+				6F25B2952A1FE9A900F41640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F25B2962A1FE9A900F41640 /* Build configuration list for PBXNativeTarget "TapGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F25B2972A1FE9A900F41640 /* Debug */,
+				6F25B2982A1FE9A900F41640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F25B2802A1FE9A700F41640 /* Project object */;
+}
